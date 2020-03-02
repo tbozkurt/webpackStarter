@@ -26,12 +26,17 @@ module.exports = {
 				}
 			},
 			{
+				test: /\.html$/i,
+				loader: 'html-loader',
+			},
+			{
 				test: /\.(gif|jpe?g|png)$/i,
 				use: [
 					{
 						loader: "file-loader",
 						options: {
-							name: "img/[hash].[ext]"
+							name: "img/[hash].[ext]",
+							esModule: false
 						}
 					},
 					{

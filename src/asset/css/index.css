@@ -1,8 +1,4 @@
 .welcome{
     width: 200px;
     height: 200px;
-    background-image: url("../img/welcome.jpg");
-    background-color: #cccccc;
-    background-size: 100% 100% ;
-    background-repeat: no-repeat;
 }
